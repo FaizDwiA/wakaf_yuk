@@ -14,6 +14,6 @@
     <a href="/contact">Contact</a>
     <h1>Halaman About</h1>
     <h3>Owner: {{ $nama }}</h3>
-    <img src="img/Logo.png" alt="Wakaf" width="200">
+    <img src="assets/img/logo.png" alt="Wakaf" width="200">
 </body>
 </html>

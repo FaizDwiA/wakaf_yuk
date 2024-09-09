@@ -25,3 +25,7 @@ Route::get('/blog',function(){
 Route::get('/contact',function(){
     return view('contact');
 });
+
+Route::get('/tampilan',function(){
+    return view('tampilan_awal');
+});
