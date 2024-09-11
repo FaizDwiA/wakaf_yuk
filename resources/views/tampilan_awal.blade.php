@@ -21,18 +21,18 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mx-auto me-auto mb-2 mb-lg-0 ">
             <li class="nav-item">
-            <a class="nav-link mx-2" aria-current="page" href="#">Beranda</a>
+            <a class="nav-link mx-3" aria-current="page" href="#">Beranda</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link mx-2" aria-current="page" href="#">Berita</a>
+            <a class="nav-link mx-3" aria-current="page" href="#">Berita</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link mx-2" aria-current="page" href="#">Daftar Keuangan</a>
+            <a class="nav-link mx-3" aria-current="page" href="#">Daftar Keuangan</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link mx-2" aria-current="page" href="#">Tentang kami & Kontak kami</a>
+            <a class="nav-link mx-3" aria-current="page" href="#">Tentang kami</a>
             </li>
-            <li class="nav-item dropdown mx-2">
+            <li class="nav-item dropdown mx-3">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Profil
             </a>
