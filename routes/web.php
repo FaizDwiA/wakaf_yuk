@@ -13,3 +13,6 @@ Route::get('/tampilan_awal', [tampilanController::class, 'tampilan_awal']);
 Route::get('/tampilan',function(){
     return view('tampilan_awal');
 });
+
+//route resource for products
+Route::resource('/products', \App\Http\Controllers\ProductController::class);
