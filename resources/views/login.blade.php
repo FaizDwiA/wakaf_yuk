@@ -54,64 +54,48 @@
             <div class="col-6 offset-3 ">
                 <div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded"> 
                     <div class="row">
-                        <p class="text-center fw-semibold fs-1">Daftar</p>
+                        <p class="text-center fw-semibold fs-1">Masuk</p>
                     <form>
                         <div class="mb-4">
                         <label for="formGroupExampleInput" class="form-label">Email</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukkan Email Anda">
                         </div>
                         <label for="formGroupExampleInput" class="form-label">Password</label>
-                        <div class="input-group mb-4">
-                            <input type="password" id="password1" class="form-control" placeholder="Masukkan Password Anda">
-                            <button class="btn btn-outline-secondary" type="button" id="togglePassword1">
+                        <div class="input-group mb-3">
+                            <input type="password" id="password" class="form-control" placeholder="Masukkan Password Anda">
+                            <button class="btn btn-outline-secondary" type="button" id="togglePassword">
                                 <i class="bi bi-eye"></i>
                             </button>
                         </div>
-                        <label for="formGroupExampleInput" class="form-label">Konfirmasi Password</label>
-                        <div class="input-group mb-4">
-                            <input type="password" id="password2" class="form-control" placeholder="Masukkan Ulang Password Anda">
-                            <button class="btn btn-outline-secondary" type="button" id="togglePassword2">
-                                <i class="bi bi-eye"></i>
-                            </button>
+                        <div class="my-3 ">
+                            <a href="#" class="text-decoration-none">Lupa Kata Sandi?</a>
                         </div>
                         <div class="d-grid gap-2">
-                        <button type="submit" class="btn btn-dark ">Daftar</button>
+                        <button type="submit" class="btn btn-dark">Masuk</button>
                         </div>
-                        <div class="text-center mt-3 mb-1">Sudah Mempunyai Akun?
-                            <a href="#" class="text-decoration-none mb-3">Masuk</a>
+                        <div class="text-center mt-3 mb-1">Belum Mempunyai Akun?
+                            <a href="#" class="text-decoration-none mb-3">Daftar disini</a>
                         </div>
                     </form>
                     </div>
                 </div>
             </div>
         </div>
-        <script>
-            const togglePassword1 = document.querySelector('#togglePassword1');
-            const password1 = document.querySelector('#password1');
-        
-            togglePassword1.addEventListener('click', function () {
-                // Toggle the type attribute
-                const type = password1.getAttribute('type') === 'password' ? 'text' : 'password';
-                password1.setAttribute('type', type);
-        
-                // Toggle the eye slash icon
-                this.querySelector('i').classList.toggle('bi-eye');
-                this.querySelector('i').classList.toggle('bi-eye-slash');
-            });
-            const togglePassword2 = document.querySelector('#togglePassword2');
-            const password2 = document.querySelector('#password2');
-        
-            togglePassword2.addEventListener('click', function () {
-                // Toggle the type attribute
-                const type = password2.getAttribute('type') === 'password' ? 'text' : 'password';
-                password2.setAttribute('type', type);
-        
-                // Toggle the eye slash icon
-                this.querySelector('i').classList.toggle('bi-eye');
-                this.querySelector('i').classList.toggle('bi-eye-slash');
-            });
-        </script>
-    <!-- Bootstrap JS Offline -->
+    <script>
+        const togglePassword = document.querySelector('#togglePassword');
+        const password = document.querySelector('#password');
+    
+        togglePassword.addEventListener('click', function () {
+            // Toggle the type attribute
+            const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+            password.setAttribute('type', type);
+    
+            // Toggle the eye slash icon
+            this.querySelector('i').classList.toggle('bi-eye');
+            this.querySelector('i').classList.toggle('bi-eye-slash');
+        });
+    </script>
+        <!-- Bootstrap JS Offline -->
     <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
 </body>
 </html>
