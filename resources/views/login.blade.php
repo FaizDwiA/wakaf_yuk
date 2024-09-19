@@ -7,6 +7,7 @@
     
     <link rel="icon" href="{{ asset('assets/img/logo1.png') }}">
     <title>Wakaf Yuk!</title>
+    <link rel="stylesheet" href="style.css">
     
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css" rel="stylesheet">
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
@@ -70,11 +71,13 @@
                         <div class="my-3 ">
                             <a href="#" class="text-decoration-none">Lupa Kata Sandi?</a>
                         </div>
+                        <div class="text-center mt-1 mb-1">Email atau Password salah
+                        </div>
                         <div class="d-grid gap-2">
-                        <button type="submit" class="btn btn-dark">Masuk</button>
+                        <a href="/tampilan_awal" class="btn btn-dark">Masuk</a>
                         </div>
                         <div class="text-center mt-3 mb-1">Belum Mempunyai Akun?
-                            <a href="#" class="text-decoration-none mb-3">Daftar disini</a>
+                            <a href="/register" class="text-decoration-none mb-3">Daftar disini</a>
                         </div>
                     </form>
                     </div>

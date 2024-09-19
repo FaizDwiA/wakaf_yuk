@@ -75,10 +75,10 @@
                             </button>
                         </div>
                         <div class="d-grid gap-2">
-                        <button type="submit" class="btn btn-dark ">Daftar</button>
+                        <a href="/login" class="btn btn-dark ">Daftar</a>
                         </div>
                         <div class="text-center mt-3 mb-1">Sudah Mempunyai Akun?
-                            <a href="#" class="text-decoration-none mb-3">Masuk</a>
+                            <a href="/login" class="text-decoration-none mb-3">Masuk</a>
                         </div>
                     </form>
                     </div>

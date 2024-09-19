@@ -44,8 +44,8 @@
         <form class="d-flex mx-2" role="search">
             <input class="form-control me-3" type="search" placeholder="Pencarian" aria-label="Search">
         </form>
-        <button class="btn btn-outline-light" type="submit">Masuk</button>
-        <button type="button" class="btn btn-light mx-3">Daftar</button>
+        <a href="/login" class="btn btn-outline-light">Masuk</a>
+        <a href="/register" class="btn btn-light mx-3">Daftar</a>
         </div>
     </div>
     </nav>
