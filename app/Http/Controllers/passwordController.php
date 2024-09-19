@@ -5,10 +5,10 @@ namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class loginController extends Controller
+class passwordController extends Controller
 {
-    function login() 
+    function password() 
     {
-        return view('login');
+        return view('password');
     }
 }
