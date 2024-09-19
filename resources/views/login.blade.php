@@ -69,9 +69,7 @@
                             </button>
                         </div>
                         <div class="my-3 ">
-                            <a href="#" class="text-decoration-none">Lupa Kata Sandi?</a>
-                        </div>
-                        <div class="text-center mt-1 mb-1">Email atau Password salah
+                            <a href="/password" class="text-decoration-none">Lupa Kata Sandi?</a>
                         </div>
                         <div class="d-grid gap-2">
                         <a href="/tampilan_awal" class="btn btn-dark">Masuk</a>

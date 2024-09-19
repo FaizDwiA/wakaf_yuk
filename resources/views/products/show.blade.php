@@ -16,7 +16,6 @@
                 <div class="card border-0 shadow-sm rounded">
                 </div>
             </div>
-            <div class="col-md-8">
                 <div class="card border-0 shadow-sm rounded">
                     <div class="card-body">
                         <h3>{{ $product->title }}</h3>
@@ -29,7 +28,6 @@
                         <p>Stock : {{ $product->stock }}</p>
                     </div>
                 </div>
-            </div>
         </div>
     </div>
 
