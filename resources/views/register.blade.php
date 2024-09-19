@@ -21,7 +21,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto me-auto mb-2 mb-lg-0 ">
                 <li class="nav-item">
-                <a class="nav-link mx-3" aria-current="page" href="#">Beranda</a>
+                <a class="nav-link mx-3" aria-current="page" href="/tampilan_awal">Beranda</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link mx-3" aria-current="page" href="#">Berita</a>
@@ -44,7 +44,7 @@
             <form class="d-flex mx-2" role="search">
                 <input class="form-control me-3" type="search" placeholder="Pencarian" aria-label="Search">
             </form>
-            <button class="btn btn-outline-light" type="submit">Masuk</button>
+            <a href="/login" class="btn btn-outline-light">Masuk</a>
             <button type="button" class="btn btn-light mx-3">Daftar</button>
             </div>
         </div>
